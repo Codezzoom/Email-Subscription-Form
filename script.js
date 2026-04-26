@@ -39,14 +39,3 @@ form.addEventListener("submit", (e) => {
     displayMessage("Invalid email", "error", 3000);
   }
 });
-
-
-
-
-// form.addEventListener('submit', e => {
-//   e.preventDefault();
-//   fetch(scriptURL, { method: 'POST', body: email.value })
-//     .then(response => response.json())
-//     .then(response => console.log('Success!', response))
-//     .catch(error => console.error('Error!', error.message));
-// });
